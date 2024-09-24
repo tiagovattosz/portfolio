@@ -1,2 +1,2 @@
 # portfolio
-Portfólio de web developer.
+Portfólio com HTML, CSS e JavaScript. 
