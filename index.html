@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifolio Tiago</title>
     <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body>
     <header class="header">
@@ -16,9 +20,9 @@
       <nav class="menu-principal">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="">Projetos</a></li>
+          <li><a href="#projects">Projetos</a></li>
           <li><a href="">Educação</a></li>
-          <li><a href="">Contato</a></li>
+          <li><a href="#footer">Contato</a></li>
         </ul>
       </nav>
     </header>
@@ -41,14 +45,88 @@
       </div>
     </section>
 
-    <section class="projetos">
-      <h2>Meus projetos</h2>
+    <section class="projects" id="projects">
+      <h2>Meus Projetos</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <a
+            href="https://github.com/tiagovattosz/marketwizard"
+            target="_blank"
+          >
+            <img src="/images/github-logo.jpg" alt="Projeto 1" />
+          </a>
+          <h3>Marketwizard</h3>
+        </div>
+        <div class="project-item">
+          <a href="https://github.com/tiagovattosz/gympro" target="_blank">
+            <img src="/images/github-logo.jpg" alt="Projeto 2" />
+          </a>
+          <h3>Gympro</h3>
+        </div>
+        <div class="project-item">
+          <a href="https://github.com/tiagovattosz/spring-auth" target="_blank">
+            <img src="/images/github-logo.jpg" alt="Projeto 3" />
+          </a>
+          <h3>Spring Auth</h3>
+        </div>
+      </div>
     </section>
 
     <section class="educacao">
-      <h2>Minha educação</h2>
+      <div class="informacoes-educacao">
+        <h2>Minha educação</h2>
+        <h3>FEMA - Bacharelado em ciência da computação</h3>
+      </div>
+
+      <div class="mapa-educacao">
+        <gmp-map
+          center="-22.64404391238707, -50.41961074637103"
+          zoom="10"
+          map-id="DEMO_MAP_ID"
+          style="height: 400px; width: 400px"
+        >
+          <gmp-advanced-marker
+            position="-22.64404391238707, -50.41961074637103"
+            title="FEMA"
+          ></gmp-advanced-marker>
+        </gmp-map>
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnI8YUNeRg-9RY_ajGiRBU8YFgWlsYms0&libraries=maps,marker&v=beta"
+          defer
+        ></script>
+      </div>
     </section>
 
-    <footer class="rodapé"></footer>
+    <footer class="footer" id="footer">
+      <div class="footer-content">
+        <div class="social-media">
+          <h3>Redes Sociais</h3>
+          <ul>
+            <li>
+              <a href="https://github.com/tiagovattosz" target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/tiago-vattos-zamboni-680952232/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i> LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="contact-info">
+          <h3>Contato</h3>
+          <ul>
+            <li>Telefone: (18) 99670-2004</li>
+            <li>
+              Email:
+              <a href="mailto:tiagovattosz@gmail.com">tiagovattosz@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

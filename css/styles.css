@@ -3,6 +3,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -66,6 +67,121 @@ body {
 
 .apresentacao div:nth-child(2) {
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente a imagem */
-  align-items: center; /* Centraliza verticalmente a imagem */
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  padding: 0 20px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-item {
+  flex: 1;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease; /* Efeito de transição suave */
+}
+
+.project-item img:hover {
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse sobre a imagem */
+}
+
+.project-item h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.educacao {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.educacao div {
+  flex-grow: 1;
+}
+
+.informacoes-educacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.mapa-educacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: left;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-media,
+.contact-info {
+  flex: 1;
+  padding: 10px;
+}
+
+.social-media ul li {
+  margin-top: 5px;
+}
+
+.contact-info ul li {
+  margin-top: 5px;
+}
+
+.social-media ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.contact-info ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.social-media ul li a:hover {
+  color: aquamarine;
+}
+
+.contact-info a:hover {
+  color: aquamarine;
 }
