@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkblue;
+  color: white;
+  padding: 10px 60px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.perfil h1 {
+  font-size: 1.5rem;
+}
+
+.menu-principal ul {
+  display: flex;
+}
+
+.menu-principal ul li {
+  margin-left: 20px;
+}
+
+.menu-principal ul li a {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.menu-principal ul li a:hover {
+  color: aquamarine;
+}
+
+.apresentacao {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.apresentacao div {
+  flex: 1; /* Faz com que os divs ocupem metade da largura */
+}
+
+.apresentacao div:nth-child(2) {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente a imagem */
+  align-items: center; /* Centraliza verticalmente a imagem */
+}
