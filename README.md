@@ -1,5 +1,5 @@
 # Portfolio
-## Portfólio feito para estudos sobre HTML, CSS e JavaScript.
+## Portfólio feito para estudos sobre HTML e CSS.
 ![image](https://github.com/user-attachments/assets/782272d6-bcf5-40e2-976b-96c495878525)
 ![image](https://github.com/user-attachments/assets/87a211eb-4cf1-4691-965d-340d7faeafc1)
 ![image](https://github.com/user-attachments/assets/6a8b3907-cfd3-41d7-92d7-7d021facb558)
